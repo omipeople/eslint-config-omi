@@ -5,7 +5,10 @@
   "main": "dist/config.js",
   "scripts": {
     "build": "babel src -d dist",
-    "test": "eslint src/*"
+    "test": "eslint src/*",
+    "preversion": "npm run test && npm run build",
+    "version": "git add -f dist/",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
