@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-omi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config used at OMI A/S",
   "main": "dist/config.js",
   "scripts": {

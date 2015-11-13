@@ -12,8 +12,6 @@ exports.default = {
     "jsx": true
   },
 
-  "parser": "babel-eslint",
-
   "rules": {
     "indent": [2, "tab"],
     "strict": [2, "function"],
