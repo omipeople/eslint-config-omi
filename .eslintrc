@@ -3,7 +3,9 @@
     "es6": true,
     "node": true
   },
+
   "parser": "babel-eslint",
+
   "rules": {
     "strict": 0
   }
