@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-omi",
+  "version": "1.0.0",
+  "description": "ESLint config used at OMI A/S",
+  "main": "dist/config.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "eslint src/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omipeople/eslint-config-omi.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "omi"
+  ],
+  "author": "Julian Møller <nodejs@julianmoeller.dk> (http://www.jumoel.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omipeople/eslint-config-omi/issues"
+  },
+  "homepage": "https://github.com/omipeople/eslint-config-omi#readme",
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-eslint": "^4.1.5",
+    "babel-preset-es2015": "^6.1.18",
+    "eslint": "^1.9.0"
+  },
+  "dependencies": {
+    "eslint-config-semistandard": "^5.0.0",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-standard": "^1.3.1"
+  }
+}
