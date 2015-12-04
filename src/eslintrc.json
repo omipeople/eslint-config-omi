@@ -1,12 +1,7 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = {
+{
   "extends": "eslint-config-semistandard",
 
-  "plugins": ["react"],
+  "plugins": [ "react" ],
 
   "ecmaFeatures": {
     "jsx": true
@@ -18,4 +13,4 @@ exports.default = {
     "space-before-function-paren": [2, "never"],
     "react/jsx-uses-react": 1
   }
-};
+}
